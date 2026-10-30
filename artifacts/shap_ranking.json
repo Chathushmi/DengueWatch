@@ -1,0 +1,152 @@
+[
+  {
+    "term":"growth_1w",
+    "mean_abs_shap":0.0988177677,
+    "label":"Case trend over last week (log change)"
+  },
+  {
+    "term":"cases_lag1",
+    "mean_abs_shap":0.0813475516,
+    "label":"Cases 1 week before"
+  },
+  {
+    "term":"growth_3w",
+    "mean_abs_shap":0.070623133,
+    "label":"Case trend over last 3 weeks (log change)"
+  },
+  {
+    "term":"rain_lag5",
+    "mean_abs_shap":0.0385422865,
+    "label":"Rainfall 5 weeks before"
+  },
+  {
+    "term":"humidity_lag1",
+    "mean_abs_shap":0.0282699593,
+    "label":"Humidity 1 week before"
+  },
+  {
+    "term":"rain_lag7",
+    "mean_abs_shap":0.0265951457,
+    "label":"Rainfall 7 weeks before"
+  },
+  {
+    "term":"temp_lag8",
+    "mean_abs_shap":0.0262871756,
+    "label":"Mean temp 8 weeks before"
+  },
+  {
+    "term":"rain_sum_4w",
+    "mean_abs_shap":0.0252086217,
+    "label":"Rainfall total, last 4 weeks"
+  },
+  {
+    "term":"humidity_lag12",
+    "mean_abs_shap":0.0226129632,
+    "label":"Humidity 12 weeks before"
+  },
+  {
+    "term":"rain_lag10",
+    "mean_abs_shap":0.0204337156,
+    "label":"Rainfall 10 weeks before"
+  },
+  {
+    "term":"rain_lag12",
+    "mean_abs_shap":0.0198280031,
+    "label":"Rainfall 12 weeks before"
+  },
+  {
+    "term":"district",
+    "mean_abs_shap":0.0197507586,
+    "label":"District"
+  },
+  {
+    "term":"humidity_lag8",
+    "mean_abs_shap":0.0174858714,
+    "label":"Humidity 8 weeks before"
+  },
+  {
+    "term":"rain_lag4",
+    "mean_abs_shap":0.0172348598,
+    "label":"Rainfall 4 weeks before"
+  },
+  {
+    "term":"temp_lag12",
+    "mean_abs_shap":0.0165717308,
+    "label":"Mean temp 12 weeks before"
+  },
+  {
+    "term":"rain_sum_8w",
+    "mean_abs_shap":0.016307181,
+    "label":"Rainfall total, last 8 weeks"
+  },
+  {
+    "term":"season",
+    "mean_abs_shap":0.0153643973,
+    "label":"Monsoon season"
+  },
+  {
+    "term":"rain_lag8",
+    "mean_abs_shap":0.0145853899,
+    "label":"Rainfall 8 weeks before"
+  },
+  {
+    "term":"week_of_year",
+    "mean_abs_shap":0.0138162894,
+    "label":"Week of year"
+  },
+  {
+    "term":"rain_lag9",
+    "mean_abs_shap":0.0133209308,
+    "label":"Rainfall 9 weeks before"
+  },
+  {
+    "term":"cases_lag4",
+    "mean_abs_shap":0.0127467382,
+    "label":"Cases 4 weeks before"
+  },
+  {
+    "term":"temp_lag1",
+    "mean_abs_shap":0.012205343,
+    "label":"Mean temp 1 week before"
+  },
+  {
+    "term":"rain_lag11",
+    "mean_abs_shap":0.0121599194,
+    "label":"Rainfall 11 weeks before"
+  },
+  {
+    "term":"rain_lag2",
+    "mean_abs_shap":0.0105395332,
+    "label":"Rainfall 2 weeks before"
+  },
+  {
+    "term":"rain_lag1",
+    "mean_abs_shap":0.0099740515,
+    "label":"Rainfall 1 week before"
+  },
+  {
+    "term":"temp_lag4",
+    "mean_abs_shap":0.0096503413,
+    "label":"Mean temp 4 weeks before"
+  },
+  {
+    "term":"rain_lag6",
+    "mean_abs_shap":0.0094910809,
+    "label":"Rainfall 6 weeks before"
+  },
+  {
+    "term":"cases_lag2",
+    "mean_abs_shap":0.0086399861,
+    "label":"Cases 2 weeks before"
+  },
+  {
+    "term":"rain_lag3",
+    "mean_abs_shap":0.0079810013,
+    "label":"Rainfall 3 weeks before"
+  },
+  {
+    "term":"humidity_lag4",
+    "mean_abs_shap":0.0055484806,
+    "label":"Humidity 4 weeks before"
+  }
+]

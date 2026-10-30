@@ -1,0 +1,125 @@
+{
+  "algorithm": "ExplainableBoostingRegressor (interpret)",
+  "target": "log1p(cases next week) - log1p(cases this week)",
+  "best_params": {
+    "learning_rate": 0.005,
+    "interactions": 0,
+    "max_leaves": 2,
+    "max_bins": 32
+  },
+  "fixed_params": {
+    "outer_bags": 8,
+    "min_samples_leaf": 4,
+    "random_state": 42
+  },
+  "grid": {
+    "learning_rate": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "interactions": [
+      0,
+      10
+    ],
+    "max_leaves": [
+      2,
+      3
+    ],
+    "max_bins": [
+      32,
+      64
+    ]
+  },
+  "n_grid": 24,
+  "features": [
+    "cases_lag1",
+    "cases_lag2",
+    "cases_lag4",
+    "growth_1w",
+    "growth_3w",
+    "rain_lag1",
+    "rain_lag2",
+    "rain_lag3",
+    "rain_lag4",
+    "rain_lag5",
+    "rain_lag6",
+    "rain_lag7",
+    "rain_lag8",
+    "rain_lag9",
+    "rain_lag10",
+    "rain_lag11",
+    "rain_lag12",
+    "rain_sum_4w",
+    "rain_sum_8w",
+    "humidity_lag1",
+    "humidity_lag4",
+    "humidity_lag8",
+    "humidity_lag12",
+    "temp_lag1",
+    "temp_lag4",
+    "temp_lag8",
+    "temp_lag12",
+    "week_of_year",
+    "season",
+    "district"
+  ],
+  "climate_only_features": [
+    "rain_lag1",
+    "rain_lag2",
+    "rain_lag3",
+    "rain_lag4",
+    "rain_lag5",
+    "rain_lag6",
+    "rain_lag7",
+    "rain_lag8",
+    "rain_lag9",
+    "rain_lag10",
+    "rain_lag11",
+    "rain_lag12",
+    "rain_sum_4w",
+    "rain_sum_8w",
+    "humidity_lag1",
+    "humidity_lag4",
+    "humidity_lag8",
+    "humidity_lag12",
+    "temp_lag1",
+    "temp_lag4",
+    "temp_lag8",
+    "temp_lag12",
+    "week_of_year",
+    "season",
+    "district"
+  ],
+  "alert_thresholds": {
+    "Colombo": 215.2,
+    "Gampaha": 91.2,
+    "Kandy": 54.0
+  },
+  "districts": [
+    "Colombo",
+    "Gampaha",
+    "Kandy"
+  ],
+  "split_sizes": {
+    "train": 1908,
+    "val": 441,
+    "test": 588
+  },
+  "split_ranges": {
+    "train": [
+      "2007-03-17",
+      "2019-05-18"
+    ],
+    "val": [
+      "2019-05-25",
+      "2022-03-12"
+    ],
+    "test": [
+      "2022-03-19",
+      "2025-12-13"
+    ]
+  },
+  "best_val_mae": 31.97583167798532,
+  "val_persistence_mae": 30.029478458049887
+}
