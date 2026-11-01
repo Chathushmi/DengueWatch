@@ -46,7 +46,6 @@ ROC-AUC ~0.93). Rainfall 5–8 weeks earlier is the main climate signal.
 | `src/evaluate.py` | Test metrics (MAE, RMSE, R2, alert F1/AUC) and plots |
 | `src/explain.py` | EBM global/local, SHAP, LIME, PDP/ICE, domain-knowledge check |
 | `app/streamlit_app.py` | Front-end: overview, forecast + what-if, explanations, performance |
-| `artifacts/` | Generated models, metrics, figures |
 
 ## Method summary
 
